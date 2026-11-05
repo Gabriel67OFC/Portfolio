@@ -1,10 +1,97 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:"Space Grotesk",sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: ;
+    font-size: 1.1rem;
 }
+
+body{
+    background-color: #F9F6F0;
+}
+
+header{
+    background-color: #222222;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    color: #F9F6F0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #F9F6F0;
+}
+
+.logo{
+    font-weight: 700;
+}
+
+.simbolo-logo{
+    color:#F9F6F0;
+}
+
+.icone-login i{
+    color: #F9F6F0;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+main{
+    padding: 50px 150px;
+}
+
+h1{
+    font-size: 4rem;
+    color: #222222;
+}
+
+.area-inicio{
+    display: flex;
+    gap: 10vw;
+}
+
+.area-imagem{
+    width: 30vw;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #222222;
+}
+
+.nome-destaque{
+    font-size: 4rem;
+    color: #D4AF37;
+}
+
+.botoes-iniciais{
+    margin: 50px 0px;
+}
+
+.btn-ver-projetos{
+    background-color: #222222;
+    color: #F9F6F0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: 2px solid #D4AF37;
+}
+
+.btn-github{
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #D4AF37;
+    background-color: #222222;
+}
+
+.card-foco
