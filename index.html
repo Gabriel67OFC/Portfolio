@@ -9,14 +9,20 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+
+
 </head>
 
 
+
 <body>
+
+    <!-- CABEÇALHO -->
     <header>
+
         <div class="logo">
             <span class="simbolo-logo">&lt;</span>
-            dev.portifolio
+            dev.portfolio
             <span class="simbolo-logo">/&gt;</span>
         </div>
 
@@ -31,14 +37,26 @@
         </nav>
 
         <div class="icone-login">
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-solid fa-circle-user"></i>
+
+            <a href="https://github.com/Gabriel67OFC" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="#contato">
+                <i class="fa-solid fa-circle-user"></i>
+            </a>
+
         </div>
+
     </header>
+
 
     <main>
 
-        <!-- INÍCIO -->
+        <!-- ==========================
+             INÍCIO
+        =========================== -->
+
         <section class="area-inicio" id="inicio">
 
             <div class="area-texto">
@@ -64,12 +82,16 @@
                         Ver meus Projetos
                     </a>
 
-                    <a href="#github" class="btn-github">
+                    <a href="https://github.com/" class="btn-github"
+                       target="_blank" rel="noopener noreferrer">
                         <i class="fa-brands fa-github"></i>
                         Meu GitHub
                     </a>
 
                 </div>
+
+
+                <!-- FOCO ATUAL -->
 
                 <div class="card-foco">
 
@@ -78,6 +100,7 @@
                     </div>
 
                     <div>
+
                         <p class="foco-atual">
                             <i class="fa-solid fa-laptop-code"></i>
                             <span>FOCO ATUAL</span> -
@@ -88,35 +111,44 @@
                             Construindo consistência diária no código
                             e refinando alinhamentos visuais na tela.
                         </p>
+
                     </div>
 
                 </div>
 
             </div>
 
-            <!-- IMAGEM FORA DA AREA-TEXTO -->
+
+            <!-- CARROSSEL DE FOTOS -->
+
             <div class="carrossel">
 
                 <div class="carrossel-imagens">
 
-                    <img class="area-imagem" src="./img/minhafoto.png.png" alt="Foto de João Gabriel">
+                    <img src="./img/minhafoto.png.png"
+                         alt="Foto de João Gabriel">
 
-                    <img src="./img/Selfie no espelho com Sasuke Uchiha.png" alt="Foto 2">
+                    <img src="./img/Selfie no espelho com Sasuke Uchiha.png"
+                         alt="Foto no espelho">
 
-                    <img src="./img/Três Clones no Elevador Metálico.png" alt="Foto 3">
+                    <img src="./img/Três Clones no Elevador Metálico.png"
+                         alt="Foto dos clones no elevador">
 
                 </div>
 
             </div>
 
-
         </section>
 
 
-        <!-- MINHA JORNADA -->
-        <section class="minha-jornada" id="ferramentas">
 
-            <div class="titulo-minha-jornada">
+        <!-- ==========================
+             MINHA JORNADA
+        =========================== -->
+
+        <section class="minha-jornada" id="sobre">
+
+            <div class="titulo-minha-jornada titulo">
 
                 <span>MINHA JORNADA</span>
 
@@ -130,63 +162,83 @@
             </div>
 
 
-            <!-- CARDS -->
+            <!-- CARDS DE APRENDIZADO -->
+
             <div class="cards">
 
-                <!-- CARD HTML -->
-                <div class="card-html">
+                <!-- HTML -->
+
+                <article class="card-html">
 
                     <div class="topo-card">
-                        <span class="icon-html">HTML</span>
+
+                        <i class="fa-solid fa-code icon-html"></i>
+
                         <span class="fase-1">Fase 1</span>
+
                     </div>
 
                     <h3>HTML Semântico</h3>
 
                     <p>
                         Uso de tags corretas como &lt;main&gt;,
-                        estruturação de cabeçalhos e formulários
-                        acessíveis com labels claras e semântica pura.
+                        &lt;article&gt;, estruturação de cabeçalhos
+                        e formulários acessíveis com labels claras
+                        e semântica adequada.
                     </p>
 
-                    <div class="barra-card">
+                    <div class="barra-card barra-html">
+
                         <i class="fa-regular fa-circle-check"></i>
-                        <span>Fundação dominada</span>
+
+                        <span>Fundação em desenvolvimento</span>
+
                     </div>
 
-                </div>
+                </article>
 
 
-                <!-- CARD CSS -->
-                <div class="card-html">
+                <!-- CSS -->
+
+                <article class="card-html">
 
                     <div class="topo-card">
-                        <span class="icon-html">CSS</span>
-                        <span class="fase-1">Fase 2</span>
+
+                        <i class="fa-brands fa-css3-alt icon-css"></i>
+
+                        <span class="em-pratica">Em prática</span>
+
                     </div>
 
-                    <h3>CSS e estilização</h3>
+                    <h3>CSS Moderno</h3>
 
                     <p>
                         Aprendizado de seletores, cores, espaçamentos,
-                        Flexbox e Grid para criar layouts organizados
-                        e responsivos.
+                        Box Model, Flexbox e Grid para desenvolver
+                        layouts organizados e responsivos.
                     </p>
 
-                    <div class="barra-card">
-                        <i class="fa-regular fa-circle-check"></i>
-                        <span>Em desenvolvimento</span>
+                    <div class="barra-card barra-css">
+
+                        <i class="fa-solid fa-rotate"></i>
+
+                        <span>Exercícios em andamento</span>
+
                     </div>
 
-                </div>
+                </article>
 
 
-                <!-- CARD JAVASCRIPT -->
-                <div class="card-html">
+                <!-- JAVASCRIPT -->
+
+                <article class="card-html">
 
                     <div class="topo-card">
-                        <span class="icon-html">JS</span>
-                        <span class="fase-3">Fase 3</span>
+
+                        <i class="fa-brands fa-js icon-js"></i>
+
+                        <span class="conceito">Próxima etapa</span>
+
                     </div>
 
                     <h3>JavaScript</h3>
@@ -194,72 +246,452 @@
                     <p>
                         Próximo passo: aprender lógica de programação,
                         manipulação do DOM e interatividade
-                        para páginas web.
+                        para desenvolver páginas web.
                     </p>
 
-                    <div class="barra-card">
-                        <i class="fa-solid fa-code"></i>
-                        <span>Próxima etapa</span>
+                    <div class="barra-card barra-responsivo">
+
+                        <i class="fa-regular fa-clock"></i>
+
+                        <span>Próximas metas</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- REFLEXÃO DO APRENDIZADO -->
+
+            <div class="area-reflexao frase-motivacional">
+
+                <i class="fa-regular fa-lightbulb"></i>
+
+                <span class="reflexao">
+                    REFLEXÃO DO APRENDIZADO
+                </span>
+
+                <span class="aspas">“</span>
+
+                <h3>
+                    Envelhecer e morrer é o que dá sentido e beleza
+                    ao tempo fugaz de uma vida humana. É exatamente
+                    porque envelhecemos e morremos que nossas vidas
+                    têm valor e nobreza.
+                </h3>
+
+                <div class="area-autor">
+
+                    <div class="logo-autor">
+                        JG
+                    </div>
+
+                    <div class="nome-autor">
+
+                        <h4>João Gabriel</h4>
+
+                        <p>Aluno de Desenvolvimento de Sistemas</p>
+
                     </div>
 
                 </div>
 
             </div>
 
+        </section>
 
-            <section class="frase-motivacional">
-                <span class="aspas">"</span>
+
+
+        <!-- ==========================
+             PROJETOS
+        =========================== -->
+
+        <section class="secao-projetos trabalhos-iniciais" id="projetos">
+
+            <div class="titulo-secao titulo">
+
+                <span>TRABALHOS INICIAIS</span>
+
+                <h2>Projetos & Experimentos</h2>
 
                 <p>
-                    Envelhecer e morrer é o que dá sentido e beleza ao tempo fugaz de uma vida humana. É exatamente
-                    porque envelhecemos e morremos que nossas vidas têm valor e nobreza.
+                    Resultados reais dos meus estudos e experimentos
+                    com desenvolvimento.
                 </p>
 
-                <span class="autor">
-                    -De um grande guerreiro
-                </span>
-
-                <span class="reflexao">
-                    REFLEXAO DO APRENDIZADO
-                </span>
-            </section>
-
-        </section>
-
-        <section class="secao-projetos" id="projetos">
-
-            <div class="titulo-secao">
-                <span>TRABALHOS INICIAIS</span>
-                <h2>Projetos & Experimentos</h2>
-                <p>Resultados reais dos meus estudos e experimentos com desenvolvimento</p>
             </div>
 
-            <div class="grade-projetos">
 
-                <article class="projeto-card">
-                    <img src="#" alt="#">
+            <!-- GRADE DE PROJETOS -->
+
+            <div class="grade-projetos cards cards-trabalhos">
+
+
+                <!-- PROJETO 1 -->
+
+                <article class="projeto-card card-html card-html-trabalhos">
+
+                    <div class="area-imagem atividade-1">
+
+                        <img src="./img/projeto1.png"
+                             alt="Captura de tela da minha primeira página">
+
+                        <span>Atividade #01</span>
+
+                    </div>
 
                     <div class="projeto-conteudo">
-                        <span>HTML 5</span>
-                        <span>CSS3</span>
+
+                        <div class="tags topo-card topo-card-trabalhos">
+
+                            <span>HTML5</span>
+                            <span class="tag-azul">CSS3</span>
+
+                        </div>
+
+                        <h3>Minha primeira página</h3>
+
+                        <p>
+                            Meu primeiro desafio individual:
+                            estruturação semântica, organização
+                            de conteúdo e estilização utilizando CSS.
+                        </p>
+
+                        <div class="projeto-botoes barra-card barra-card-demo">
+
+                            <a href="#" target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Demo ao vivo
+                            </a>
+
+                            <a href="#" target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="fa-solid fa-code"></i>
+                                Ver código
+                            </a>
+
+                        </div>
+
                     </div>
 
-                    <h3>Minha primeira pagina</h3>
-
-                    <p>
-                        Uma pagina desenvolvida para praticar estrutura HTML e estilizacao com CSS.
-                    </p>
-
-                    <div class="projeto-botoes">
-                        <a href="#" target="_blank">Demo ao vivo</a>
-                        <a href="#" target="_blank">Ver código</a>
-                    </div>
                 </article>
+
+
+
+                <!-- PROJETO 2 -->
+
+                <article class="projeto-card card-html card-html-trabalhos">
+
+                    <div class="area-imagem atividade-2">
+
+                        <img src="./img/projeto2.png"
+                             alt="Captura de tela do formulário de cadastro">
+
+                        <span>Atividade #02</span>
+
+                    </div>
+
+                    <div class="projeto-conteudo">
+
+                        <div class="tags topo-card topo-card-trabalhos">
+
+                            <span class="tag-verde">Acessibilidade</span>
+                            <span>Forms HTML5</span>
+
+                        </div>
+
+                        <h3>Formulário de cadastro</h3>
+
+                        <p>
+                            Exercício de criação de formulários,
+                            campos de entrada, organização visual
+                            e utilização de elementos HTML.
+                        </p>
+
+                        <div class="projeto-botoes barra-card barra-card-demo">
+
+                            <a href="#" target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Demo ao vivo
+                            </a>
+
+                            <a href="#" target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="fa-solid fa-code"></i>
+                                Ver código
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- PROJETO 3 -->
+
+                <article class="projeto-card card-html card-html-trabalhos">
+
+                    <div class="area-imagem atividade-3">
+
+                        <img src="./img/projeto3.png"
+                             alt="Captura de tela do card de produto">
+
+                        <span>Atividade #03</span>
+
+                    </div>
+
+                    <div class="projeto-conteudo">
+
+                        <div class="tags topo-card topo-card-trabalhos">
+
+                            <span class="tag-azul">CSS Flexbox</span>
+                            <span>Micro-layouts</span>
+
+                        </div>
+
+                        <h3>Card de produto</h3>
+
+                        <p>
+                            Exercício prático de hierarquia visual,
+                            espaçamento de elementos internos
+                            e alinhamentos utilizando Flexbox.
+                        </p>
+
+                        <div class="projeto-botoes barra-card barra-card-demo">
+
+                            <a href="#" target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                Demo ao vivo
+                            </a>
+
+                            <a href="#" target="_blank"
+                               rel="noopener noreferrer">
+                                <i class="fa-solid fa-code"></i>
+                                Ver código
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
             </div>
+
         </section>
+
+
+
+        <!-- ==========================
+             FERRAMENTAS
+        =========================== -->
+
+        <section class="area-ferramentas" id="ferramentas">
+
+            <div class="titulo">
+
+                <span>AMBIENTE DE TRABALHO</span>
+
+                <h2>Ferramentas no meu dia a dia</h2>
+
+                <p>
+                    As ferramentas que me acompanham
+                    durante meus estudos e projetos.
+                </p>
+
+            </div>
+
+
+            <div class="ferramentas">
+
+
+                <!-- VS CODE -->
+
+                <article class="card-ferramentas">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <h5>VS Code</h5>
+
+                    <p>Editor de código</p>
+
+                    <span>Desenvolvimento frontend</span>
+
+                </article>
+
+
+                <!-- GITHUB -->
+
+                <article class="card-ferramentas">
+
+                    <i class="fa-brands fa-github" id="icon-git"></i>
+
+                    <h5>GitHub</h5>
+
+                    <p>Repositórios</p>
+
+                    <span>Organização de projetos</span>
+
+                </article>
+
+
+                <!-- HTML -->
+
+                <article class="card-ferramentas">
+
+                    <i class="fa-brands fa-html5"></i>
+
+                    <h5>HTML5</h5>
+
+                    <p>Estruturação web</p>
+
+                    <span>Criação de páginas</span>
+
+                </article>
+
+
+                <!-- CSS -->
+
+                <article class="card-ferramentas">
+
+                    <i class="fa-brands fa-css3-alt" id="icon-figma"></i>
+
+                    <h5>CSS3</h5>
+
+                    <p>Estilização</p>
+
+                    <span>Layouts e responsividade</span>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==========================
+             CONTATO
+        =========================== -->
+
+        <section class="vamos-conversar" id="contato">
+
+            <i class="fa-regular fa-comment-dots"></i>
+
+            <h2>Vamos conversar?</h2>
+
+            <p>
+                Quer trocar uma ideia sobre desenvolvimento,
+                compartilhar experiências ou acompanhar meus projetos?
+                Entre em contato!
+            </p>
+
+
+            <div class="area-contatos">
+
+
+                <!-- E-MAIL -->
+
+                <article class="card-contato">
+
+                    <div class="forma-contato" id="forma-contato">
+
+                        <i class="fa-regular fa-envelope"></i>
+
+                        E-mail
+
+                    </div>
+
+                    <p>Adicione seu endereço de e-mail</p>
+
+                    <a href="mailto:joaogabrielgb9899@gmail.com">Fale comigo por e-mail</a>
+
+
+                </article>
+
+
+                <!-- LINKEDIN -->
+
+                <article class="card-contato">
+
+                    <div class="forma-contato" id="forma-contato">
+
+                        <i class="fa-brands fa-linkedin"></i>
+
+                        LinkedIn
+
+                    </div>
+
+                    <p>Perfil profissional</p>
+
+                    <a class="link-contato" id="link-contato"
+                       href="#contato">
+                        Em breve
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- GITHUB -->
+
+                <article class="card-contato">
+
+                    <div class="forma-contato" id="forma-contato">
+
+                        <i class="fa-brands fa-github"></i>
+
+                        GitHub
+
+                    </div>
+
+                    <p>Meus projetos e códigos</p>
+
+                    <a class="link-contato" id="link-contato"
+                       href="https://github.com/Gabriel67OFC"
+                       target="_blank" rel="noopener noreferrer">
+                        Acessar perfil
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
     </main>
 
+
+
+    <!-- ==========================
+         RODAPÉ
+    =========================== -->
+
+    <footer>
+
+        <p>João Gabriel - Portfólio de Desenvolvimento</p>
+
+        <p>
+            &copy; 2026 João Gabriel.
+            Todos os direitos reservados.
+        </p>
+
+    </footer>
+
 </body>
+
+
+
 
 
 </html>
