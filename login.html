@@ -5,39 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="login.css">
-    <title>Document</title>
+    <title>Area de Login</title>
 </head>
 
 <body>
 
     <main>
-        <section class="area-login">
 
-            <form action="">
-                <div class="area-titulo">
-                    <i class="fa-solid fa-user-secret"></i>
-                    <h1>Lindosos Company</h1>
-                </div>
+        <form action="" id="area-formulario">
+            <div class="area-titulo">
+                <div class="logo-login">&lt;JG</div>
+                <h1 class="area-titulo-h1">Portfólio de João Gabriel</h1>
+            </div>
+
+            <div class="area-email">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Informe seu email">
+            </div>
 
 
-                <div class="area-email">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="">
-                </div>
-
-                <div class="area-senha">
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha">
-                </div>
+            <div class="area-senha">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Informe sua senha">
 
                 <div class="lembrar-senha">
                     <input type="checkbox" id="lembrar">
                     <label for="lembrar">Lembrar-me</label>
                     <a href="#">Esqueceu a senha?</a>
                 </div>
-            </form>
-        </section>
-
+            </div>
+            
+            
+            <div class="area-botao">
+                <button>Acessar</button>
+                <a href="#">Ainda não possui uma conta?</a>
+                <a href="index.html"> Acessar sem conta</a>
+            </div>
+        </form>
     </main>
 
 </body>
