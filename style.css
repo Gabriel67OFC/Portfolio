@@ -403,11 +403,15 @@ section[id] {
 
 .icon-html {
     background-color: var(--cor-secundaria);
-    padding: 10px 15px;
+    height: 40px;
+    width: 40px;
     border-radius: 8px;
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--cor-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fase-1,
@@ -470,6 +474,7 @@ section[id] {
     border-radius: 10px;
     font-size: 1.5rem;
     color: var(--cor-icone-responsivo);
+    
 }
 
 .em-pratica {
@@ -605,17 +610,6 @@ section[id] {
     overflow: hidden;
 }
 
-.atividade-1 {
-    background-image: url("../img/atividade-1.png");
-}
-
-.atividade-2 {
-    background-image: url("../img/atividade-2.png");
-}
-
-.atividade-3 {
-    background-image: url("../img/atividade-3.png");
-}
 
 .area-imagem span {
     position: absolute;
@@ -634,12 +628,12 @@ section[id] {
 .card-html-trabalhos h3,
 .card-html-trabalhos > p,
 .card-html-trabalhos .barra-card {
-    padding-left: 20px;
+    padding-left: 80px;
     padding-right: 20px;
 }
 
 .card-html-trabalhos h3 {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .card-html-trabalhos > p {
@@ -652,7 +646,7 @@ section[id] {
 
 .barra-card-demo {
     display: flex;
-    gap: 12px;
+    gap: 20px;
     margin-top: auto;
     padding: 20px;
 }
@@ -1090,3 +1084,17 @@ footer a {
         transition-duration: 0.01ms !important;
     }
 }
+
+
+.projeto-1{
+    padding: 20px;
+}
+
+.projeto-2{
+    padding: 20px;
+}
+
+.projeto-3{
+    padding: 20px;
+}
+
